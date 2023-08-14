@@ -4,7 +4,6 @@ const favoriteIceCreamFlavor = ["chocolate chip cookie dough", "brownie", "cooki
 window.onload = function () {
   let ulTag = document.createElement("ul");
   document.querySelector("body").append(ulTag);
-  ulTag.setAttribute("id", "favorite-flavor");
 
   favoriteIceCreamFlavor.forEach(function (flavor) {
     const li = document.createElement("li");
